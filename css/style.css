@@ -1,0 +1,49 @@
+@media only screen and (max-width: 600px) {
+	.sidenav {
+		display: none !important;
+	}
+}
+
+.sidenav {
+    transform: translateX(0%) !important;
+    background-color: #171a21;
+    color: white;
+    position: absolute;
+}
+
+.sidenav li > a{
+	color: white;
+}
+
+.steam-profile{
+	background-color: #171a21 !important;
+}
+
+.recent-game{
+	background-color: #171a21 !important;
+}
+
+.offline{
+	color: #d50000 !important;
+}
+
+.online{
+	color: #64dd17 !important;
+}
+
+.user-view {
+	background-image: url("../images/shinji.jpg") !important; 
+}
+
+.card-action{
+	color: #ffab40;
+	background-color: #171a21 !important;
+}
+
+body{
+	background-image: url('../images/evangelion.png');
+}
+
+i.icon-white {
+	color: white;
+}
